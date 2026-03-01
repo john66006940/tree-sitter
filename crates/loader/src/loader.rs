@@ -1710,7 +1710,7 @@ impl Loader {
                 match configuration.highlight_config(language, None) {
                     Err(e) => {
                         error!(
-                            "Failed to load higlight config for injection string '{string}': {e}"
+                            "Failed to load highlight config for injection string '{string}': {e}"
                         );
                         None
                     }
